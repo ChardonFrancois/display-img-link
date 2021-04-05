@@ -12,7 +12,7 @@ allLinks.forEach(link => {
 
     link.addEventListener('mouseenter', ()=>{
         cursor.classList.add('hovered');
-        cursor.style.backgroundImage = `url(../ressources/${location}.jpeg)`;
+        cursor.style.backgroundImage = `url(./ressources/${location}.jpeg)`;
     })
     link.addEventListener('mouseout', ()=>{
         cursor.classList.remove('hovered');
