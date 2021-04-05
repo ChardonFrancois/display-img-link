@@ -6,6 +6,6 @@
  - CSS
  - JS
  
-## link (display issue being processed)
+## link 
 
-!(my-link)[ https://chardonfrancois.github.io/display-img-link/]
+(my-link)[https://chardonfrancois.github.io/display-img-link/]
