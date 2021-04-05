@@ -7,13 +7,13 @@ body{
     background: linear-gradient(to right, #F1F1F1,#cf9e9e ) ;
     cursor: none;
     overflow: hidden;
+    font-family: 'New Tegomin', serif;
 }
 .cursor{
-    margin: 2rem 2rem;
     z-index: 1000;
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 6rem;
+    height: 6rem;
     border-radius: 22% 78% 0% 100% / 18% 100% 0% 82% ;
     border: 1px solid #000;
     animation: borderAnim 4s ease-in-out infinite alternate ;
@@ -43,7 +43,7 @@ body{
 nav{
     margin-top: 5rem;
     position: absolute;
-    width: 600px;
+    width: 55rem;
     top: 45%;
     left: 55%;
     transform: translate(-50%,-50%);
@@ -52,7 +52,7 @@ nav ul {
    list-style-type: none;
 }
 nav ul li{
-    font-size: 8rem;
+    font-size: 6rem;
     color: #000;
     text-align: center;
     padding: 1rem;
